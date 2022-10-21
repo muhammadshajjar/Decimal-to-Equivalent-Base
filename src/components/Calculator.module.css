@@ -1,0 +1,47 @@
+.card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+input:focus {
+  outline-color: rgb(9, 180, 180);
+}
+
+.title {
+  margin-top: 0;
+  letter-spacing: 1.5px;
+  font-size: 27px;
+}
+
+.form__controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.form__input {
+  padding: 10px;
+  width: 190px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.output__input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+@media (max-width: 486px) {
+  .form__controls {
+    flex-direction: column;
+    width: 100%;
+  }
+  .form__input {
+    width: 100%;
+  }
+}

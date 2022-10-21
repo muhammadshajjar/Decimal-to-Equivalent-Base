@@ -1,3 +1,15 @@
+# About this Project
+
+This is validation of algorithm taught in Design and Analysis Assignment
+
+- Decimal to Binary Number System
+- Decimal to Octal Number System
+- Decimal to Hexadecimal Number System
+
+## Demo
+
+For Live version [click here!](https://starlit-treacle-5ee976.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
